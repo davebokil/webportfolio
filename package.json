@@ -1,20 +1,20 @@
 {
-  "name": "portfolio",
+  "name": "webportfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "public/index.html",
+  "description": "My Web Portfolio",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -w",
-    "dev": "node server",
-    "start": "node server "
+    "start": "node server.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davebokil/webportfolio.git"
+  },
+  "author": "dave bokil",
   "license": "ISC",
-  "dependencies": {
-    "axios": "^0.12.0",
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "morgan": "^1.7.0"
-  }
+  "bugs": {
+    "url": "https://github.com/davebokil/webportfolio/issues"
+  },
+  "homepage": "https://github.com/davebokil/webportfolio#readme"
 }
